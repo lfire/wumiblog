@@ -94,3 +94,10 @@ jiathis: true
 
 # analytics
 baidu_analytics: ed6aed12620d22723f2a9391a7cfa02d
+
+# set the search
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000

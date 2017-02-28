@@ -278,7 +278,8 @@ highlight_theme: normal
 mathjax:
   enable: true
   per_page: true
-  cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  #cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  cdn: //cdn.staticfile.org/mathjax/2.7.0/MathJax.js
 
 
 # Swiftype Search API Key

@@ -20,17 +20,17 @@ git clone https://github.com/iissnan/hexo-theme-next themes/next
 svn export https://github.com/iissnan/hexo-theme-next.git/trunk/ themes/next --force
 ```
 
+## 将线上配置download到本项目
+```bash
+svn export https://github.com/lfire/wumiblog.git/trunk/ ./ --force
+## 安装依赖
+npm install
+```
+
 ## 创建相关单页面
 ```bash
 ## 创建标签页
 hexo new page "tags"
 ## 创建分类页
 hexo new page "categories"
-```
-
-## 将线上配置download到本项目
-```bash
-svn export https://github.com/lfire/wumiblog.git/trunk/ ./ --force
-## 安装依赖
-npm install
 ```

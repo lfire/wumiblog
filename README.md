@@ -18,6 +18,8 @@ npm install
 我们选择直接从 github 克隆安装
 ```bash
 git clone https://github.com/iissnan/hexo-theme-next themes/next
+# 或使用SVN
+svn export https://github.com/iissnan/hexo-theme-next.git/trunk/ themes/next --force
 ```
 
 ## 创建相关单页面

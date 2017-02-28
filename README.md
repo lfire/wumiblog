@@ -10,8 +10,6 @@ npm install -g hexo-cli
 ## 初始化hexo
 hexo init blog
 cd blog
-## 安装依赖
-npm install
 ```
 
 ## 安装主题
@@ -33,6 +31,6 @@ hexo new page "categories"
 ## 将线上配置download到本项目
 ```bash
 svn export https://github.com/lfire/wumiblog.git/trunk/ ./ --force
+## 安装依赖
+npm install
 ```
-
-## 

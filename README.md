@@ -5,11 +5,12 @@
 
 ## 安装hexo
 ```bash
+## 安装hexo
 npm install -g hexo-cli
-```
-
-## 安装相关依赖
-```bash
+## 初始化hexo
+hexo init blog
+cd blog
+## 安装依赖
 npm install
 ```
 
@@ -17,4 +18,17 @@ npm install
 我们选择直接从 github 克隆安装
 ```bash
 git clone https://github.com/iissnan/hexo-theme-next themes/next
+```
+
+## 创建相关单页面
+```bash
+## 创建标签页
+hexo new page "tags"
+## 创建分类页
+hexo new page "categories"
+```
+
+## 将线上配置download到本项目
+```bash
+svn export https://github.com/lfire/wumiblog.git/trunk/ ./ --force
 ```

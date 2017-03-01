@@ -90,7 +90,8 @@ marked:
 duoshuo_shortname: wumi
 
 # share
-jiathis: true
+#jiathis: true
+duoshuo_share: true
 
 # analytics
 baidu_analytics: ed6aed12620d22723f2a9391a7cfa02d
